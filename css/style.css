@@ -1,3 +1,59 @@
+@font-face {
+	font-family: 'Georgia';
+	src: url('../fonts/Georgia-Bold.eot');
+	src: local('Georgia Bold'), local('Georgia-Bold'),
+		url('../fonts/Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Georgia-Bold.woff') format('woff'),
+		url('../fonts/Georgia-Bold.woff2') format('woff2'),
+		url('../fonts/Georgia-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Georgia';
+	src: url('../fonts/Georgia.eot');
+	src: local('Georgia'),
+		url('../fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Georgia.woff') format('woff'),
+		url('../fonts/Georgia.woff2') format('woff2'),
+		url('../fonts/Georgia.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.eot');
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Semibold.eot');
+    src: local('Lato Semibold'), local('Lato-Semibold'),
+        url('../fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Semibold.woff') format('woff'),
+        url('../fonts/Lato-Semibold.woff2') format('woff2'),
+        url('../fonts/Lato-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Medium.eot');
+    src: local('Lato Medium'), local('Lato-Medium'),
+        url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Medium.woff') format('woff'),
+        url('../fonts/Lato-Medium.woff2') format('woff2'),
+        url('../fonts/Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 html{
     box-sizing: border-box;
 }
@@ -9,4 +65,44 @@ html{
 a{
     text-decoration: none; /* Уберает подчеркивание под ссылкой */
     color: inherit; /* Цвет наследуется от родительского класса */
+}
+
+
+.text-1 p {
+    font-family: 'Georgia';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 15px 0;
+
+}
+.text-2 p {
+    font-family: 'Georgia';
+    font-size: 30px;
+    line-height: 35px;
+    margin: 15px 0;
+
+}
+.text-3 p {
+    font-family: 'Lato';
+    font-size: 30px;
+    line-height: 35px;
+    margin: 15px 0;
+
+}
+.text-4 p {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 15px 0;
+
+}
+.text-5 p {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 15px 0;
+
 }
