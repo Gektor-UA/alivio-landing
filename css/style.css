@@ -235,3 +235,55 @@ a{
     object-fit: cover;
 }
 /* Блок works */
+
+/* Блок primary */
+.primary {
+    background: #245852;
+    padding: 229px 0 177px;
+    margin-bottom: 120px;
+}
+.primary__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.primary__info {
+    flex-basis: 580px;
+    color: #FFFFFF;
+}
+.primary__info-title {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    margin-bottom: 33px;
+}
+.primary__info-text {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    margin-bottom: 57px;
+}
+.primary__info-link {
+    line-height: 25px;
+    padding: 20px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+}
+.primary__popup {
+    flex-basis: 850px;
+    position: relative;
+}
+.primary__popup-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.primary__popup-img {
+    width: 100%;
+}
+/* Блок primary */
