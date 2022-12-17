@@ -162,3 +162,75 @@ a{
     border-radius: 4px;
 }
 /* Блок header */
+
+/* Блок works */
+.works {
+    padding: 170px 0 50px;
+}
+.works__description {
+    margin-bottom: 52px;
+}
+.works__description-subtitle {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+.works__description-box {
+    display: flex;
+    align-items: center;
+    gap: 136px;
+}
+.works__description-title {
+    flex-basis: 584px;
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+
+}
+.works__description-text {
+    flex-basis: 671px;
+}
+.works__info {
+    display: flex;
+    gap: 95px;
+}
+.works__info-item {
+    position: relative;
+}
+.item-2 {
+    top: 287px;
+}
+.item-3 {
+    top: 54px;
+}
+.works__info-paragraph {
+    position: absolute;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+}
+.works__info-title {
+    padding-top: 135px;
+    margin-bottom: 55px;
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+.works__info-text {
+    margin-bottom: 60px;
+}
+.works__info-img {
+    width: 390px;
+    object-fit: cover;
+}
+/* Блок works */
