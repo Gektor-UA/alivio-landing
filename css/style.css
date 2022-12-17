@@ -54,6 +54,17 @@
     font-weight: 500;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Avenir Black';
+    src: url('../fonts/AvenirLT-Black.eot');
+    src: local('Avenir LT 95 Black'), local('AvenirLT-Black'),
+        url('../fonts/AvenirLT-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLT-Black.woff') format('woff'),
+        url('../fonts/AvenirLT-Black.woff2') format('woff2'),
+        url('../fonts/AvenirLT-Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 html{
     box-sizing: border-box;
 }
@@ -84,7 +95,7 @@ a{
 
 }
 .text-3 p {
-    font-family: 'Lato';
+    font-family: 'Avenir Black';
     font-size: 30px;
     line-height: 35px;
     margin: 15px 0;
