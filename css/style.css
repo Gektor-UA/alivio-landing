@@ -287,3 +287,92 @@ a{
     width: 100%;
 }
 /* Блок primary */
+
+/* Блок product */
+.product {
+    margin-bottom: 168px;
+}
+.product__inner {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 86px;
+}
+.product__custom {
+}
+.product__custom-inner {
+    padding: 0 0 75px 60px;
+    position: relative;
+}
+.product__custom-img {
+}
+.product__custom-box {
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 22px 55px 30px 61px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.product__custom-boxtitle {
+    display: inline-block;
+    font-size: 14.49px;
+    line-height: 157%;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 8px;
+    border-bottom: 0.745942px solid #000000;
+    margin-bottom: 14px;
+}
+.product__custom-boximg {
+    margin-bottom: 11px;
+}
+.product__custom-name {
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.product__custom-subtitle {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.product__custom-list {
+    font-size: 11px;
+    text-align: left;
+    color: #000000;
+}
+.product__custom-item:first-child {
+    margin-bottom: 16px;
+}
+.product__info {
+}
+.product__info-subtitle {
+    font-weight: 600;
+    font-size: 25px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+.product__info-title {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    color: #01996D;
+    margin-bottom: 20px;
+}
+.product__info-text {
+    margin-bottom: 40px;
+}
+.product__info-link {
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+}
+/* Блок product */
