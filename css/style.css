@@ -77,7 +77,11 @@ a{
     text-decoration: none; /* Уберает подчеркивание под ссылкой */
     color: inherit; /* Цвет наследуется от родительского класса */
 }
-
+.container {
+    max-width: 1430px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
 .text-1 p {
     font-family: 'Georgia';
