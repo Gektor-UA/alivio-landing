@@ -73,51 +73,102 @@ html{
 *::before{
     box-sizing: inherit;
 }
+body {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #424242;
+}
 a{
     text-decoration: none; /* Уберает подчеркивание под ссылкой */
     color: inherit; /* Цвет наследуется от родительского класса */
 }
 .container {
-    max-width: 1430px;
+    max-width: 1400px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.text-1 p {
+/* Блок header */
+.header {
+    background-image: url('../images/header-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+.header__top {
+    padding: 17px 0;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+}
+.menu {
+}
+.menu__list {
+    display: flex;
+    gap: 70px;
+    line-height: 24px;
+    color: #292929;
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__box {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.header__box-btn {
+}
+.trial {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 13px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+}
+.headline {
+    padding-top: 175px;
+}
+.headline__inner {
+    max-width: 440px;
+}
+.headline__title {
     font-family: 'Georgia';
     font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    margin: 15px 0;
-
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+    margin-bottom: 30px;
 }
-.text-2 p {
-    font-family: 'Georgia';
-    font-size: 30px;
-    line-height: 35px;
-    margin: 15px 0;
-
+.headline__text {
+    max-width: 420px;
+    color: #484848;
+    margin-bottom: 18px;
 }
-.text-3 p {
-    font-family: 'Avenir Black';
-    font-size: 30px;
-    line-height: 35px;
-    margin: 15px 0;
-
+.headline__link {
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
 }
-.text-4 p {
-    font-family: 'Lato';
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 35px;
-    margin: 15px 0;
-
-}
-.text-5 p {
-    font-family: 'Lato';
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 35px;
-    margin: 15px 0;
-
-}
+/* Блок header */
