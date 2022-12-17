@@ -96,14 +96,14 @@ a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 100px;
-    height: calc(100vh - 100px);
+    margin-top: 92px;
+    height: calc(100vh - 92px);
     position: relative;
 }
 .header__top {
     padding: 17px 0;
     position: absolute;
-    top: -100px;
+    top: -92px;
     left: 0;
     right: 0;
 }
@@ -112,27 +112,17 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-}
-.menu {
-}
 .menu__list {
     display: flex;
     gap: 70px;
     line-height: 24px;
     color: #292929;
 }
-.menu__item {
-}
-.menu__link {
-}
 .header__box {
     font-weight: 400;
     display: flex;
     align-items: center;
     gap: 35px;
-}
-.header__box-btn {
 }
 .trial {
     text-align: center;
