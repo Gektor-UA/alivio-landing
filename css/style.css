@@ -294,17 +294,12 @@ a{
 }
 .product__inner {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 86px;
-}
-.product__custom {
 }
 .product__custom-inner {
     padding: 0 0 75px 60px;
     position: relative;
-}
-.product__custom-img {
 }
 .product__custom-box {
     text-align: center;
@@ -349,8 +344,6 @@ a{
 .product__custom-item:first-child {
     margin-bottom: 16px;
 }
-.product__info {
-}
 .product__info-subtitle {
     font-weight: 600;
     font-size: 25px;
@@ -376,3 +369,28 @@ a{
     border-radius: 4px;
 }
 /* Блок product */
+
+/* Блок footer */
+.footer {
+    background: #245852;
+    padding: 95px 0 84px;
+}
+.footer__title {
+    font-family: 'Avenir Black';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.footer__list {
+    list-style-type: none;
+}
+.footer__item {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+/* Блок footer */
